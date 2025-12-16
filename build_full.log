@@ -1,0 +1,1216 @@
+﻿Starting a Gradle Daemon, 1 busy Daemon could not be reused, use --status for details
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-dev-launcher-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-dev-launcher-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-module-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin UP-TO-DATE
+> Task :expo-dev-launcher-gradle-plugin:processResources UP-TO-DATE
+> Task :expo-module-gradle-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+> Task :expo-module-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-module-gradle-plugin:classes UP-TO-DATE
+> Task :expo-dev-launcher-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :expo-module-gradle-plugin:jar UP-TO-DATE
+> Task :expo-dev-launcher-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-dev-launcher-gradle-plugin:classes UP-TO-DATE
+> Task :expo-dev-launcher-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :
+[32m[ExpoRootProject][0m Using the following versions:
+  - buildTools:  [32m36.0.0[0m
+  - minSdk:      [32m24[0m
+  - compileSdk:  [32m36[0m
+  - targetSdk:   [32m36[0m
+  - ndk:         [32m27.1.12297006[0m
+  - kotlin:      [32m2.1.20[0m
+  - ksp:         [32m2.1.20-2.0.1[0m
+
+> Configure project :app
+ ??  [33mApplying gradle plugin[0m '[32mexpo-dev-launcher-gradle-plugin[0m'
+
+> Configure project :expo
+
+Using expo modules
+  - [32mexpo-constants[0m (18.0.11)
+  - [32mexpo-dev-client[0m (6.0.20)
+  - [32mexpo-dev-launcher[0m (6.0.20)
+  - [32mexpo-dev-menu[0m (7.0.18)
+  - [32mexpo-dev-menu-interface[0m (2.0.0)
+  - [32mexpo-json-utils[0m (0.15.0)
+  - [32mexpo-manifests[0m (1.0.10)
+  - [32mexpo-modules-core[0m (3.0.28)
+  - [32mexpo-updates-interface[0m (2.0.0)
+  - [33m[?][0m [32mexpo-ui[0m (0.2.0-beta.9)
+  - [33m[?][0m [32mexpo-asset[0m (12.0.11)
+  - [33m[?][0m [32mexpo-file-system[0m (19.0.20)
+  - [33m[?][0m [32mexpo-font[0m (14.0.10)
+  - [33m[?][0m [32mexpo-haptics[0m (15.0.8)
+  - [33m[?][0m [32mexpo-image[0m (3.0.11)
+  - [33m[?][0m [32mexpo-keep-awake[0m (15.0.8)
+  - [33m[?][0m [32mexpo-linking[0m (8.0.10)
+  - [33m[?][0m [32mexpo-splash-screen[0m (31.0.12)
+  - [33m[?][0m [32mexpo-system-ui[0m (6.0.9)
+  - [33m[?][0m [32mexpo-web-browser[0m (15.0.10)
+
+
+> Configure project :react-native-mmkv
+[NitroModules] ? NitroMmkv is boosted by nitro!
+
+> Configure project :react-native-nitro-modules
+[NitroModules] ? Your app is boosted by nitro modules!
+
+> Task :expo-dev-menu-interface:preBuild UP-TO-DATE
+> Task :expo-dev-menu:preBuild UP-TO-DATE
+> Task :expo-json-utils:preBuild UP-TO-DATE
+> Task :expo-dev-launcher:preBuild UP-TO-DATE
+> Task :expo-dev-client:preBuild UP-TO-DATE
+> Task :expo-manifests:preBuild UP-TO-DATE
+> Task :expo-modules-core:preBuild UP-TO-DATE
+> Task :expo-updates-interface:preBuild UP-TO-DATE
+> Task :expo:generatePackagesList UP-TO-DATE
+> Task :expo:preBuild UP-TO-DATE
+> Task :react-native-safe-area-context:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-gesture-handler:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-nitro-modules:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-screens:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-gesture-handler:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-gesture-handler:preBuild UP-TO-DATE
+> Task :react-native-nitro-modules:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-screens:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-screens:preBuild UP-TO-DATE
+> Task :expo:preDebugBuild UP-TO-DATE
+> Task :expo:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-dev-client:preDebugBuild UP-TO-DATE
+> Task :expo-dev-client:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-dev-launcher:preDebugBuild UP-TO-DATE
+> Task :expo-dev-launcher:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-dev-menu:preDebugBuild UP-TO-DATE
+> Task :expo-dev-menu:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-dev-menu-interface:preDebugBuild UP-TO-DATE
+> Task :expo-dev-menu-interface:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-json-utils:preDebugBuild UP-TO-DATE
+> Task :react-native-mmkv:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-safe-area-context:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :expo-json-utils:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-safe-area-context:preBuild UP-TO-DATE
+> Task :expo-manifests:preDebugBuild UP-TO-DATE
+> Task :expo-modules-core:preDebugBuild UP-TO-DATE
+> Task :expo-manifests:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-updates-interface:preDebugBuild UP-TO-DATE
+> Task :react-native-mmkv:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-mmkv:preBuild UP-TO-DATE
+> Task :expo-updates-interface:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-gesture-handler:preDebugBuild UP-TO-DATE
+> Task :expo-modules-core:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-mmkv:preDebugBuild UP-TO-DATE
+> Task :react-native-safe-area-context:preDebugBuild UP-TO-DATE
+> Task :react-native-gesture-handler:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-screens:preDebugBuild UP-TO-DATE
+> Task :react-native-safe-area-context:writeDebugAarMetadata UP-TO-DATE
+> Task :expo:generateDebugResValues UP-TO-DATE
+> Task :react-native-mmkv:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-dev-client:generateDebugResValues UP-TO-DATE
+> Task :react-native-screens:writeDebugAarMetadata UP-TO-DATE
+> Task :expo:generateDebugResources UP-TO-DATE
+> Task :expo-dev-launcher:generateDebugResValues UP-TO-DATE
+> Task :expo-dev-client:generateDebugResources UP-TO-DATE
+> Task :expo-dev-client:packageDebugResources UP-TO-DATE
+> Task :expo:packageDebugResources UP-TO-DATE
+> Task :expo-dev-menu:generateDebugResValues UP-TO-DATE
+> Task :expo-dev-menu-interface:generateDebugResValues UP-TO-DATE
+> Task :expo-dev-menu-interface:generateDebugResources UP-TO-DATE
+> Task :expo-dev-menu:generateDebugResources UP-TO-DATE
+> Task :expo-dev-launcher:generateDebugResources UP-TO-DATE
+> Task :expo-dev-menu:packageDebugResources UP-TO-DATE
+> Task :expo-json-utils:generateDebugResValues UP-TO-DATE
+> Task :expo-dev-launcher:packageDebugResources UP-TO-DATE
+> Task :expo-dev-menu-interface:packageDebugResources UP-TO-DATE
+> Task :expo-manifests:generateDebugResValues UP-TO-DATE
+> Task :expo-json-utils:generateDebugResources UP-TO-DATE
+> Task :expo-modules-core:generateDebugResValues UP-TO-DATE
+> Task :expo-manifests:generateDebugResources UP-TO-DATE
+> Task :expo-modules-core:generateDebugResources UP-TO-DATE
+> Task :expo-json-utils:packageDebugResources UP-TO-DATE
+> Task :expo-updates-interface:generateDebugResValues UP-TO-DATE
+> Task :expo-updates-interface:generateDebugResources UP-TO-DATE
+> Task :expo-manifests:packageDebugResources UP-TO-DATE
+> Task :expo-modules-core:packageDebugResources UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugResValues UP-TO-DATE
+> Task :react-native-mmkv:generateDebugResValues UP-TO-DATE
+> Task :expo-updates-interface:packageDebugResources UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugResValues UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugResources UP-TO-DATE
+> Task :react-native-mmkv:generateDebugResources UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugResources UP-TO-DATE
+> Task :react-native-safe-area-context:packageDebugResources UP-TO-DATE
+> Task :react-native-mmkv:packageDebugResources UP-TO-DATE
+> Task :react-native-gesture-handler:packageDebugResources UP-TO-DATE
+> Task :react-native-screens:generateDebugResValues UP-TO-DATE
+> Task :expo:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-dev-client:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-screens:generateDebugResources UP-TO-DATE
+> Task :expo:processDebugManifest UP-TO-DATE
+> Task :react-native-screens:packageDebugResources UP-TO-DATE
+> Task :react-native-nitro-modules:prepareHeaders UP-TO-DATE
+> Task :react-native-nitro-modules:preBuild UP-TO-DATE
+> Task :react-native-nitro-modules:preDebugBuild UP-TO-DATE
+> Task :expo-dev-menu:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-nitro-modules:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-dev-menu:processDebugManifest UP-TO-DATE
+> Task :react-native-nitro-modules:generateDebugResValues UP-TO-DATE
+> Task :expo-dev-menu-interface:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-nitro-modules:generateDebugResources UP-TO-DATE
+> Task :expo-dev-menu-interface:processDebugManifest UP-TO-DATE
+> Task :expo-dev-launcher:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-json-utils:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-dev-client:processDebugManifest UP-TO-DATE
+> Task :react-native-nitro-modules:packageDebugResources UP-TO-DATE
+> Task :expo-dev-launcher:processDebugManifest UP-TO-DATE
+> Task :expo-json-utils:processDebugManifest UP-TO-DATE
+> Task :expo-manifests:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-modules-core:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-updates-interface:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-gesture-handler:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-modules-core:processDebugManifest UP-TO-DATE
+> Task :expo-manifests:processDebugManifest UP-TO-DATE
+> Task :react-native-mmkv:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-gesture-handler:processDebugManifest UP-TO-DATE
+> Task :expo-updates-interface:processDebugManifest UP-TO-DATE
+> Task :react-native-nitro-modules:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-safe-area-context:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-mmkv:processDebugManifest UP-TO-DATE
+> Task :react-native-screens:extractDeepLinksDebug UP-TO-DATE
+> Task :expo:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-nitro-modules:processDebugManifest UP-TO-DATE
+> Task :expo-dev-client:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-screens:processDebugManifest UP-TO-DATE
+> Task :react-native-safe-area-context:processDebugManifest UP-TO-DATE
+> Task :expo-dev-client:parseDebugLocalResources UP-TO-DATE
+> Task :expo-dev-launcher:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-dev-menu:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-dev-launcher:parseDebugLocalResources UP-TO-DATE
+> Task :expo-dev-client:generateDebugRFile UP-TO-DATE
+> Task :expo-dev-menu:parseDebugLocalResources UP-TO-DATE
+> Task :expo-dev-launcher:generateDebugRFile UP-TO-DATE
+> Task :expo-dev-menu-interface:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-json-utils:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-dev-menu:generateDebugRFile UP-TO-DATE
+> Task :expo-dev-menu-interface:parseDebugLocalResources UP-TO-DATE
+> Task :expo-json-utils:parseDebugLocalResources UP-TO-DATE
+> Task :expo-json-utils:generateDebugRFile UP-TO-DATE
+> Task :expo-dev-menu-interface:generateDebugRFile UP-TO-DATE
+> Task :expo-modules-core:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-updates-interface:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-manifests:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-updates-interface:parseDebugLocalResources UP-TO-DATE
+> Task :expo-modules-core:parseDebugLocalResources UP-TO-DATE
+> Task :expo-manifests:parseDebugLocalResources UP-TO-DATE
+> Task :expo-modules-core:generateDebugRFile UP-TO-DATE
+> Task :expo-updates-interface:generateDebugRFile UP-TO-DATE
+> Task :expo-manifests:generateDebugRFile UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-mmkv:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-nitro-modules:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-gesture-handler:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-nitro-modules:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-mmkv:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugRFile UP-TO-DATE
+> Task :react-native-nitro-modules:generateDebugRFile UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-safe-area-context:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-mmkv:generateDebugRFile UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugRFile UP-TO-DATE
+> Task :react-native-screens:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-modules-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-dev-client:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-screens:parseDebugLocalResources UP-TO-DATE
+> Task :expo-modules-core:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-screens:generateDebugRFile UP-TO-DATE
+> Task :expo:parseDebugLocalResources UP-TO-DATE
+> Task :expo-dev-client:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :expo:generateDebugRFile UP-TO-DATE
+> Task :expo:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-dev-client:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :expo-dev-client:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-dev-client:javaPreCompileDebug UP-TO-DATE
+> Task :expo-dev-launcher:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-worklets:assertMinimalReactNativeVersionTask
+> Task :react-native-reanimated:assertMinimalReactNativeVersionTask
+> Task :react-native-reanimated:assertNewArchitectureEnabledTask SKIPPED
+> Task :expo-dev-launcher:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :react-native-worklets:assertNewArchitectureEnabledTask SKIPPED
+> Task :react-native-worklets:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-reanimated:assertWorkletsVersionTask
+> Task :react-native-worklets:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-reanimated:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-reanimated:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-worklets:prepareWorkletsHeadersForPrefabs UP-TO-DATE
+> Task :react-native-worklets:preBuild
+> Task :react-native-worklets:preDebugBuild
+> Task :react-native-worklets:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-worklets:generateDebugResValues UP-TO-DATE
+> Task :expo-modules-core:compileDebugKotlin UP-TO-DATE
+> Task :expo-modules-core:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-worklets:generateDebugResources UP-TO-DATE
+> Task :react-native-worklets:packageDebugResources UP-TO-DATE
+> Task :react-native-reanimated:prepareReanimatedHeadersForPrefabs UP-TO-DATE
+> Task :react-native-reanimated:preBuild
+> Task :react-native-reanimated:preDebugBuild
+> Task :react-native-worklets:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-reanimated:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-reanimated:generateDebugResValues UP-TO-DATE
+> Task :react-native-reanimated:generateDebugResources UP-TO-DATE
+> Task :react-native-reanimated:packageDebugResources UP-TO-DATE
+> Task :react-native-reanimated:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-reanimated:processDebugManifest UP-TO-DATE
+> Task :react-native-worklets:processDebugManifest UP-TO-DATE
+> Task :react-native-reanimated:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-worklets:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-reanimated:parseDebugLocalResources UP-TO-DATE
+> Task :expo-modules-core:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-worklets:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-reanimated:generateDebugRFile UP-TO-DATE
+> Task :expo-modules-core:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-worklets:generateDebugRFile UP-TO-DATE
+> Task :expo-dev-client:compileDebugKotlin NO-SOURCE
+
+> Task :expo-constants:createExpoConfig
+.\gradlew.bat : The NODE_ENV 
+environment variable is 
+required but was not 
+specified. Ensure the 
+project is bundled with Expo 
+CLI or NODE_ENV is set. 
+Using only .env.local and 
+.env
+At line:1 char:134
++ ... \bin;$env:Path"; cd 
+android; .\gradlew.bat 
+assembleDebug 2>&1 | Out-F 
+...
++                            
+      ~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (The NOD  
+  E_ENV en....local and .e   
+ nv:String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+
+> Task :expo-dev-client:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-dev-client:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-dev-menu:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-dev-menu:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateAutolinkingNewArchitectureFiles UP-TO-DATE
+> Task :expo-dev-menu-interface:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-dev-menu-interface:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateAutolinkingPackageList UP-TO-DATE
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generateReactNativeEntryPoint UP-TO-DATE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-json-utils:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-json-utils:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-manifests:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-manifests:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-dev-menu:javaPreCompileDebug UP-TO-DATE
+> Task :expo-updates-interface:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-gesture-handler:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-updates-interface:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-manifests:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-reanimated:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-worklets:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-dev-launcher:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :react-native-gesture-handler:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-reanimated:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-mmkv:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-nitro-modules:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-dev-launcher:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-nitro-modules:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-mmkv:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-dev-launcher:checkApolloVersions UP-TO-DATE
+> Task :react-native-mmkv:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-worklets:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-dev-launcher:generateServiceApolloOptions UP-TO-DATE
+> Task :expo-dev-launcher:generateServiceApolloSources UP-TO-DATE
+> Task :expo-dev-launcher:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-screens:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-screens:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-worklets:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-worklets:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-dev-menu-interface:compileDebugKotlin UP-TO-DATE
+> Task :expo-json-utils:compileDebugKotlin UP-TO-DATE
+> Task :expo-dev-menu-interface:javaPreCompileDebug UP-TO-DATE
+> Task :expo-json-utils:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-reanimated:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-nitro-modules:compileDebugKotlin UP-TO-DATE
+> Task :react-native-reanimated:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-nitro-modules:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-nitro-modules:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-nitro-modules:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugKotlin UP-TO-DATE
+> Task :react-native-mmkv:compileDebugKotlin UP-TO-DATE
+> Task :react-native-safe-area-context:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-mmkv:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-mmkv:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo:mergeDebugShaders UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo:compileDebugShaders NO-SOURCE
+> Task :expo:generateDebugAssets UP-TO-DATE
+> Task :expo:mergeDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-dev-launcher:mergeDebugShaders UP-TO-DATE
+> Task :expo-dev-launcher:compileDebugShaders NO-SOURCE
+> Task :expo-dev-launcher:generateDebugAssets UP-TO-DATE
+> Task :expo-dev-client:mergeDebugShaders UP-TO-DATE
+> Task :expo-dev-launcher:mergeDebugAssets UP-TO-DATE
+> Task :expo-dev-client:compileDebugShaders NO-SOURCE
+> Task :expo-dev-client:generateDebugAssets UP-TO-DATE
+> Task :expo-dev-client:mergeDebugAssets UP-TO-DATE
+> Task :expo-dev-menu:mergeDebugShaders UP-TO-DATE
+> Task :expo-dev-menu:compileDebugShaders NO-SOURCE
+> Task :expo-dev-menu:generateDebugAssets UP-TO-DATE
+> Task :expo-manifests:mergeDebugShaders UP-TO-DATE
+> Task :expo-manifests:compileDebugShaders NO-SOURCE
+> Task :expo-manifests:generateDebugAssets UP-TO-DATE
+> Task :expo-dev-menu:mergeDebugAssets UP-TO-DATE
+> Task :expo-modules-core:mergeDebugShaders UP-TO-DATE
+> Task :expo-manifests:mergeDebugAssets UP-TO-DATE
+> Task :expo-modules-core:compileDebugShaders NO-SOURCE
+> Task :expo-modules-core:generateDebugAssets UP-TO-DATE
+> Task :react-native-mmkv:mergeDebugShaders UP-TO-DATE
+> Task :react-native-mmkv:compileDebugShaders NO-SOURCE
+> Task :react-native-mmkv:generateDebugAssets UP-TO-DATE
+> Task :expo-modules-core:mergeDebugAssets UP-TO-DATE
+> Task :react-native-mmkv:mergeDebugAssets UP-TO-DATE
+> Task :react-native-nitro-modules:mergeDebugShaders UP-TO-DATE
+> Task :react-native-reanimated:mergeDebugShaders UP-TO-DATE
+> Task :react-native-nitro-modules:compileDebugShaders NO-SOURCE
+> Task :react-native-nitro-modules:generateDebugAssets UP-TO-DATE
+> Task :react-native-reanimated:compileDebugShaders NO-SOURCE
+> Task :react-native-reanimated:generateDebugAssets UP-TO-DATE
+> Task :react-native-reanimated:mergeDebugAssets UP-TO-DATE
+> Task :react-native-nitro-modules:mergeDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugShaders UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugShaders NO-SOURCE
+> Task :react-native-safe-area-context:generateDebugAssets UP-TO-DATE
+> Task :react-native-worklets:mergeDebugShaders UP-TO-DATE
+> Task :react-native-worklets:compileDebugShaders NO-SOURCE
+> Task :react-native-worklets:generateDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugAssets UP-TO-DATE
+> Task :react-native-worklets:mergeDebugAssets UP-TO-DATE
+> Task :react-native-reanimated:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-mmkv:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-worklets:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-nitro-modules:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-screens:compileDebugKotlin UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugKotlin UP-TO-DATE
+> Task :react-native-screens:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-screens:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-gesture-handler:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-screens:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-gesture-handler:mergeDebugShaders UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugShaders NO-SOURCE
+> Task :react-native-gesture-handler:generateDebugAssets UP-TO-DATE
+> Task :react-native-screens:mergeDebugShaders UP-TO-DATE
+> Task :react-native-screens:compileDebugShaders NO-SOURCE
+> Task :react-native-gesture-handler:mergeDebugAssets UP-TO-DATE
+> Task :react-native-screens:generateDebugAssets UP-TO-DATE
+> Task :react-native-screens:mergeDebugAssets UP-TO-DATE
+> Task :react-native-gesture-handler:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-screens:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-modules-core:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-modules-core:processDebugJavaRes UP-TO-DATE
+> Task :react-native-gesture-handler:processDebugJavaRes UP-TO-DATE
+> Task :react-native-mmkv:processDebugJavaRes UP-TO-DATE
+> Task :react-native-nitro-modules:processDebugJavaRes UP-TO-DATE
+> Task :react-native-reanimated:processDebugJavaRes NO-SOURCE
+> Task :react-native-safe-area-context:processDebugJavaRes UP-TO-DATE
+> Task :react-native-worklets:processDebugJavaRes NO-SOURCE
+> Task :react-native-screens:processDebugJavaRes UP-TO-DATE
+> Task :expo-dev-client:bundleLibRuntimeToJarDebug
+> Task :expo-constants:preBuild
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-constants:preDebugBuild
+> Task :expo-constants:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-worklets:configureCMakeDebug[arm64-v8a]
+> Task :expo-constants:generateDebugResValues UP-TO-DATE
+> Task :expo-constants:generateDebugResources UP-TO-DATE
+> Task :expo-constants:packageDebugResources UP-TO-DATE
+> Task :expo-constants:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-constants:processDebugManifest UP-TO-DATE
+> Task :expo-constants:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-constants:parseDebugLocalResources UP-TO-DATE
+> Task :expo-constants:generateDebugRFile UP-TO-DATE
+> Task :expo-constants:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-constants:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-constants:compileDebugKotlin UP-TO-DATE
+> Task :expo-constants:javaPreCompileDebug UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :expo-json-utils:compileDebugJavaWithJavac
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-json-utils:bundleLibCompileToJarDebug
+> Task :expo-dev-menu-interface:compileDebugJavaWithJavac
+> Task :expo-dev-menu-interface:bundleLibCompileToJarDebug
+> Task :expo-updates-interface:javaPreCompileDebug UP-TO-DATE
+> Task :expo-dev-menu-interface:mergeDebugShaders UP-TO-DATE
+> Task :expo-dev-menu-interface:compileDebugShaders NO-SOURCE
+> Task :expo-dev-menu-interface:generateDebugAssets UP-TO-DATE
+> Task :expo-dev-menu-interface:mergeDebugAssets UP-TO-DATE
+> Task :expo-json-utils:mergeDebugShaders UP-TO-DATE
+> Task :expo-json-utils:compileDebugShaders NO-SOURCE
+> Task :expo-json-utils:generateDebugAssets UP-TO-DATE
+> Task :expo-json-utils:mergeDebugAssets UP-TO-DATE
+> Task :expo-updates-interface:mergeDebugShaders UP-TO-DATE
+> Task :expo-updates-interface:compileDebugShaders NO-SOURCE
+> Task :expo-updates-interface:generateDebugAssets UP-TO-DATE
+> Task :expo-updates-interface:mergeDebugAssets UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :expo-constants:compileDebugJavaWithJavac
+> Task :expo-dev-menu-interface:bundleLibRuntimeToJarDebug
+> Task :expo-constants:mergeDebugShaders UP-TO-DATE
+> Task :expo-constants:compileDebugShaders NO-SOURCE
+> Task :expo-constants:generateDebugAssets UP-TO-DATE
+> Task :expo-constants:mergeDebugAssets UP-TO-DATE
+> Task :expo-constants:bundleLibCompileToJarDebug
+> Task :expo-constants:bundleLibRuntimeToJarDebug
+> Task :expo-json-utils:bundleLibRuntimeToJarDebug
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :expo-dev-client:processDebugJavaRes NO-SOURCE
+> Task :expo-constants:processDebugJavaRes
+> Task :expo-dev-menu-interface:processDebugJavaRes
+> Task :expo-json-utils:processDebugJavaRes
+> Task :expo:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo:mergeDebugNativeLibs NO-SOURCE
+> Task :expo:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-constants:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-constants:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-constants:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-dev-client:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-dev-client:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-dev-client:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-dev-launcher:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-dev-launcher:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-dev-launcher:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-dev-menu:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-dev-menu:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-dev-menu:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-dev-menu-interface:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-dev-menu-interface:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-dev-menu-interface:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-json-utils:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-manifests:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-json-utils:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-manifests:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-manifests:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-json-utils:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-updates-interface:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-updates-interface:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-updates-interface:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-gesture-handler:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-mmkv:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-reanimated:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-safe-area-context:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-worklets:configureCMakeDebug[armeabi-v7a]
+> Task :react-native-worklets:configureCMakeDebug[x86]
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :react-native-worklets:configureCMakeDebug[x86_64]
+> Task :react-native-worklets:generateJsonModelDebug
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :react-native-worklets:prefabDebugConfigurePackage UP-TO-DATE
+> Task :react-native-screens:configureCMakeDebug[arm64-v8a]
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :expo-modules-core:configureCMakeDebug[arm64-v8a]
+> Task :react-native-nitro-modules:configureCMakeDebug[arm64-v8a]
+
+> Task :react-native-nitro-modules:buildCMakeDebug[arm64-v8a]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-nitro-modules\android\build\intermediates\cxx\Debug\393pr1p5\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-nitro-modules\android\build\intermediates\cxx\Debug\393pr1p5\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :expo-modules-core:buildCMakeDebug[arm64-v8a]
+> Task :react-native-worklets:buildCMakeDebug[arm64-v8a][worklets]
+> Task :expo-updates-interface:compileDebugKotlin
+> Task :expo-updates-interface:compileDebugJavaWithJavac
+> Task :expo-updates-interface:bundleLibCompileToJarDebug
+> Task :expo-updates-interface:bundleLibRuntimeToJarDebug
+> Task :expo-updates-interface:processDebugJavaRes
+> Task :expo:stripDebugDebugSymbols NO-SOURCE
+> Task :expo:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :expo:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :expo:prepareDebugArtProfile UP-TO-DATE
+> Task :expo:prepareLintJarForPublish UP-TO-DATE
+> Task :expo-constants:stripDebugDebugSymbols NO-SOURCE
+> Task :expo-constants:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-screens:buildCMakeDebug[arm64-v8a]
+> Task :react-native-screens:configureCMakeDebug[armeabi-v7a]
+
+> Task :expo-manifests:compileDebugKotlin
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-manifests/android/src/main/java/expo/modules/manifests/core/EmbeddedManifest.kt:19:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-manifests/android/src/main/java/expo/modules/manifests/core/EmbeddedManifest.kt:19:86 'fun getLegacyID(): String' is deprecated. Prefer scopeKey or projectId depending on use case.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-manifests/android/src/main/java/expo/modules/manifests/core/ExpoUpdatesManifest.kt:16:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-manifests/android/src/main/java/expo/modules/manifests/core/Manifest.kt:13:3 Deprecations and opt-ins on a method overridden from 'Any' may not be reported.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-manifests/android/src/main/java/expo/modules/manifests/core/Manifest.kt:15:12 'fun getRawJson(): JSONObject' is deprecated. Prefer to use specific field getters.
+
+> Task :react-native-screens:buildCMakeDebug[armeabi-v7a]
+> Task :expo-manifests:compileDebugJavaWithJavac
+> Task :expo-manifests:bundleLibCompileToJarDebug
+> Task :react-native-nitro-modules:configureCMakeDebug[armeabi-v7a]
+> Task :expo-manifests:bundleLibRuntimeToJarDebug
+> Task :expo-manifests:processDebugJavaRes
+
+> Task :react-native-nitro-modules:buildCMakeDebug[armeabi-v7a]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-nitro-modules\android\build\intermediates\cxx\Debug\393pr1p5\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-nitro-modules\android\build\intermediates\cxx\Debug\393pr1p5\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-reanimated:configureCMakeDebug[arm64-v8a]
+> Task :app:mergeExtDexDebug
+> Task :expo-modules-core:configureCMakeDebug[armeabi-v7a]
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-worklets:buildCMakeDebug[armeabi-v7a][worklets]
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :expo-dev-client:stripDebugDebugSymbols NO-SOURCE
+> Task :expo-dev-client:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :expo-constants:extractDebugAnnotations
+> Task :expo-dev-client:extractDebugAnnotations
+> Task :expo-dev-client:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :expo-dev-client:mergeDebugGeneratedProguardFiles
+> Task :expo-dev-client:mergeDebugConsumerProguardFiles
+> Task :expo-dev-client:prepareDebugArtProfile UP-TO-DATE
+> Task :expo-dev-client:prepareLintJarForPublish UP-TO-DATE
+> Task :expo-constants:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :expo-dev-client:mergeDebugJavaResource
+> Task :expo-constants:mergeDebugGeneratedProguardFiles
+> Task :expo-constants:mergeDebugConsumerProguardFiles
+> Task :expo-dev-client:syncDebugLibJars
+> Task :expo-constants:prepareDebugArtProfile UP-TO-DATE
+> Task :expo-constants:prepareLintJarForPublish UP-TO-DATE
+> Task :expo-dev-client:bundleDebugAar
+> Task :expo-dev-client:assembleDebug
+> Task :expo-dev-launcher:stripDebugDebugSymbols NO-SOURCE
+> Task :expo-dev-launcher:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :expo-dev-launcher:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :expo-dev-launcher:prepareDebugArtProfile UP-TO-DATE
+> Task :expo-dev-launcher:prepareLintJarForPublish UP-TO-DATE
+> Task :expo-dev-menu:stripDebugDebugSymbols NO-SOURCE
+> Task :expo-dev-menu:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :expo-dev-menu:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :expo-dev-menu:prepareDebugArtProfile UP-TO-DATE
+> Task :expo-dev-menu:prepareLintJarForPublish UP-TO-DATE
+> Task :expo-dev-menu-interface:stripDebugDebugSymbols NO-SOURCE
+> Task :expo-dev-menu-interface:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :expo-dev-menu-interface:extractDebugAnnotations
+> Task :expo-dev-menu-interface:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :expo-dev-menu-interface:mergeDebugGeneratedProguardFiles
+> Task :expo-dev-menu-interface:mergeDebugConsumerProguardFiles
+> Task :expo-dev-menu-interface:prepareDebugArtProfile UP-TO-DATE
+> Task :expo-dev-menu-interface:prepareLintJarForPublish UP-TO-DATE
+> Task :expo-dev-menu-interface:mergeDebugJavaResource
+> Task :expo-dev-menu-interface:syncDebugLibJars
+> Task :expo-dev-menu-interface:bundleDebugAar
+> Task :expo-dev-menu-interface:assembleDebug
+> Task :expo-json-utils:stripDebugDebugSymbols NO-SOURCE
+> Task :expo-json-utils:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :expo-json-utils:extractDebugAnnotations
+> Task :expo-json-utils:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :expo-json-utils:mergeDebugGeneratedProguardFiles
+> Task :expo-json-utils:mergeDebugConsumerProguardFiles
+> Task :expo-json-utils:prepareDebugArtProfile UP-TO-DATE
+> Task :expo-json-utils:prepareLintJarForPublish UP-TO-DATE
+> Task :expo-json-utils:mergeDebugJavaResource
+> Task :expo-constants:mergeDebugJavaResource
+> Task :expo-json-utils:syncDebugLibJars
+> Task :expo-json-utils:bundleDebugAar
+> Task :expo-json-utils:assembleDebug
+> Task :expo-manifests:stripDebugDebugSymbols NO-SOURCE
+> Task :expo-constants:syncDebugLibJars
+> Task :expo-manifests:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :expo-manifests:extractDebugAnnotations
+> Task :expo-manifests:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :expo-manifests:mergeDebugGeneratedProguardFiles
+> Task :expo-manifests:mergeDebugConsumerProguardFiles
+> Task :expo-manifests:prepareDebugArtProfile UP-TO-DATE
+> Task :expo-manifests:prepareLintJarForPublish UP-TO-DATE
+> Task :expo-constants:bundleDebugAar
+> Task :expo-constants:assembleDebug
+> Task :expo-updates-interface:stripDebugDebugSymbols NO-SOURCE
+> Task :expo-updates-interface:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :expo-updates-interface:extractDebugAnnotations
+> Task :expo-updates-interface:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :expo-updates-interface:mergeDebugGeneratedProguardFiles
+> Task :expo-updates-interface:mergeDebugConsumerProguardFiles
+> Task :expo-updates-interface:prepareDebugArtProfile UP-TO-DATE
+> Task :expo-updates-interface:prepareLintJarForPublish UP-TO-DATE
+> Task :expo-manifests:mergeDebugJavaResource
+> Task :expo-updates-interface:mergeDebugJavaResource
+> Task :expo-manifests:syncDebugLibJars
+> Task :expo-manifests:bundleDebugAar
+> Task :expo-manifests:assembleDebug
+> Task :expo-updates-interface:syncDebugLibJars
+> Task :react-native-gesture-handler:extractDebugAnnotations
+> Task :react-native-gesture-handler:extractDeepLinksForAarDebug
+> Task :react-native-gesture-handler:mergeDebugGeneratedProguardFiles
+> Task :react-native-gesture-handler:mergeDebugConsumerProguardFiles
+> Task :react-native-gesture-handler:prepareDebugArtProfile
+> Task :expo-updates-interface:bundleDebugAar
+> Task :expo-updates-interface:assembleDebug
+> Task :react-native-gesture-handler:prepareLintJarForPublish
+> Task :react-native-mmkv:extractDebugAnnotations
+> Task :react-native-mmkv:extractDeepLinksForAarDebug
+> Task :react-native-mmkv:mergeDebugGeneratedProguardFiles
+> Task :react-native-mmkv:mergeDebugConsumerProguardFiles
+> Task :react-native-mmkv:prepareDebugArtProfile
+> Task :react-native-mmkv:prepareLintJarForPublish
+> Task :react-native-mmkv:mergeDebugJavaResource
+> Task :react-native-gesture-handler:mergeDebugJavaResource
+> Task :react-native-mmkv:syncDebugLibJars
+> Task :react-native-safe-area-context:stripDebugDebugSymbols NO-SOURCE
+> Task :react-native-safe-area-context:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-gesture-handler:syncDebugLibJars
+> Task :react-native-safe-area-context:extractDebugAnnotations
+> Task :react-native-safe-area-context:extractDeepLinksForAarDebug
+> Task :react-native-safe-area-context:mergeDebugGeneratedProguardFiles
+> Task :react-native-safe-area-context:mergeDebugConsumerProguardFiles
+> Task :react-native-safe-area-context:prepareDebugArtProfile
+> Task :react-native-safe-area-context:prepareLintJarForPublish
+> Task :react-native-safe-area-context:mergeDebugJavaResource
+> Task :react-native-safe-area-context:syncDebugLibJars
+> Task :react-native-safe-area-context:bundleDebugAar
+> Task :react-native-safe-area-context:assembleDebug
+> Task :react-native-screens:configureCMakeDebug[x86]
+> Task :expo-dev-menu:compileDebugKotlin
+> Task :react-native-nitro-modules:configureCMakeDebug[x86]
+> Task :react-native-reanimated:configureCMakeDebug[armeabi-v7a]
+> Task :expo-modules-core:buildCMakeDebug[armeabi-v7a]
+> Task :react-native-screens:buildCMakeDebug[x86]
+> Task :react-native-nitro-modules:buildCMakeDebug[x86]
+> Task :react-native-reanimated:configureCMakeDebug[x86]
+
+> Task :react-native-worklets:buildCMakeDebug[armeabi-v7a][worklets]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-worklets\android\build\intermediates\cxx\Debug\1s52j4n4\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-worklets\android\build\intermediates\cxx\Debug\1s52j4n4\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-screens:buildCMakeDebug[x86]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-screens\android\build\intermediates\cxx\Debug\3w73m3x4\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-screens\android\build\intermediates\cxx\Debug\3w73m3x4\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :expo-modules-core:buildCMakeDebug[armeabi-v7a]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\expo-modules-core\android\build\intermediates\cxx\Debug\6x6d5j3p\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\expo-modules-core\android\build\intermediates\cxx\Debug\6x6d5j3p\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-nitro-modules:buildCMakeDebug[x86]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-nitro-modules\android\build\intermediates\cxx\Debug\393pr1p5\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-nitro-modules\android\build\intermediates\cxx\Debug\393pr1p5\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-reanimated:configureCMakeDebug[x86_64]
+> Task :react-native-reanimated:generateJsonModelDebug
+> Task :react-native-reanimated:prefabDebugConfigurePackage
+> Task :react-native-reanimated:extractDebugAnnotations
+> Task :react-native-reanimated:extractDeepLinksForAarDebug
+> Task :react-native-reanimated:mergeDebugGeneratedProguardFiles
+> Task :react-native-reanimated:mergeDebugConsumerProguardFiles
+> Task :react-native-reanimated:prepareDebugArtProfile
+> Task :react-native-reanimated:prepareLintJarForPublish
+> Task :react-native-reanimated:mergeDebugJavaResource
+> Task :react-native-reanimated:syncDebugLibJars
+
+> Task :expo-dev-menu:compileDebugKotlin
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-menu/android/src/debug/java/expo/modules/devmenu/DevMenuManager.kt:406:43 The corresponding parameter in the supertype 'DevMenuManagerInterface' is named 'shouldAutoLaunch'. This may cause problems when calling this function with named arguments.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-menu/android/src/main/java/com/facebook/react/devsupport/DevMenuSettingsBase.kt:6:8 'class PreferenceManager : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-menu/android/src/main/java/com/facebook/react/devsupport/DevMenuSettingsBase.kt:18:51 'class PreferenceManager : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-menu/android/src/main/java/com/facebook/react/devsupport/DevMenuSettingsBase.kt:18:69 'static fun getDefaultSharedPreferences(p0: Context!): SharedPreferences!' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-menu/android/src/main/java/com/facebook/react/devsupport/DevMenuSettingsBase.kt:51:13 This code uses error suppression for 'NOTHING_TO_OVERRIDE'. While it might compile and work, the compiler behavior is UNSPECIFIED and WILL NOT BE PRESERVED. Please report your use case to the Kotlin issue tracker instead: https://kotl.in/issue
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-menu/android/src/main/java/com/facebook/react/devsupport/DevMenuSettingsBase.kt:58:13 This code uses error suppression for 'NOTHING_TO_OVERRIDE'. While it might compile and work, the compiler behavior is UNSPECIFIED and WILL NOT BE PRESERVED. Please report your use case to the Kotlin issue tracker instead: https://kotl.in/issue
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-menu/android/src/main/java/expo/modules/devmenu/DevMenuPackage.kt:28:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-menu/android/src/main/java/expo/modules/devmenu/DevMenuPackage.kt:47:78 'val reactNativeHost: ReactNativeHost' is deprecated. You should not use ReactNativeHost directly in the New Architecture. Use ReactHost instead.
+
+> Task :expo-modules-core:configureCMakeDebug[x86]
+> Task :react-native-screens:configureCMakeDebug[x86_64]
+> Task :react-native-nitro-modules:configureCMakeDebug[x86_64]
+> Task :react-native-worklets:buildCMakeDebug[x86][worklets]
+> Task :expo-dev-menu:compileDebugJavaWithJavac
+> Task :expo-dev-menu:processDebugJavaRes
+> Task :expo-dev-menu:extractDebugAnnotations
+> Task :expo-dev-menu:mergeDebugGeneratedProguardFiles
+> Task :expo-dev-menu:mergeDebugConsumerProguardFiles
+> Task :expo-dev-menu:mergeDebugJavaResource
+> Task :expo-dev-menu:bundleLibCompileToJarDebug
+> Task :expo-dev-menu:bundleLibRuntimeToJarDebug
+> Task :expo-dev-menu:syncDebugLibJars
+> Task :react-native-gesture-handler:configureCMakeDebug[arm64-v8a]
+> Task :expo-dev-menu:bundleDebugAar
+> Task :expo-dev-menu:assembleDebug
+> Task :expo-modules-core:buildCMakeDebug[x86]
+
+> Task :react-native-worklets:buildCMakeDebug[x86][worklets]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-worklets\android\build\intermediates\cxx\Debug\1s52j4n4\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-worklets\android\build\intermediates\cxx\Debug\1s52j4n4\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-screens:buildCMakeDebug[x86_64]
+> Task :react-native-nitro-modules:buildCMakeDebug[x86_64]
+
+> Task :react-native-screens:buildCMakeDebug[x86_64]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-screens\android\build\intermediates\cxx\Debug\3w73m3x4\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-screens\android\build\intermediates\cxx\Debug\3w73m3x4\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-screens:mergeDebugJniLibFolders
+> Task :react-native-screens:mergeDebugNativeLibs
+> Task :react-native-screens:extractDebugAnnotations
+> Task :react-native-screens:extractDeepLinksForAarDebug
+> Task :react-native-screens:mergeDebugGeneratedProguardFiles
+> Task :react-native-screens:mergeDebugConsumerProguardFiles
+> Task :react-native-screens:prepareDebugArtProfile
+> Task :react-native-screens:copyDebugJniLibsProjectOnly
+> Task :react-native-screens:mergeDebugJavaResource
+> Task :react-native-screens:prepareLintJarForPublish
+> Task :expo-dev-launcher:compileDebugKotlin
+> Task :react-native-screens:syncDebugLibJars
+> Task :react-native-screens:stripDebugDebugSymbols
+> Task :react-native-screens:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-screens:bundleDebugAar
+> Task :react-native-screens:assembleDebug
+
+> Task :react-native-nitro-modules:buildCMakeDebug[x86_64]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-nitro-modules\android\build\intermediates\cxx\Debug\393pr1p5\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-nitro-modules\android\build\intermediates\cxx\Debug\393pr1p5\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-worklets:buildCMakeDebug[x86_64][worklets]
+> Task :react-native-gesture-handler:configureCMakeDebug[armeabi-v7a]
+
+> Task :react-native-nitro-modules:externalNativeBuildDebug
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-nitro-modules\android\build\intermediates\cmake\debug\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-nitro-modules\android\build\intermediates\cmake\debug\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-nitro-modules\android\build\intermediates\cmake\debug\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-nitro-modules\android\build\intermediates\cmake\debug\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-nitro-modules\android\build\intermediates\cmake\debug\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-nitro-modules\android\build\intermediates\cmake\debug\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-nitro-modules\android\build\intermediates\cmake\debug\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-nitro-modules\android\build\intermediates\cmake\debug\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-nitro-modules:generateJsonModelDebug
+> Task :react-native-nitro-modules:prefabDebugConfigurePackage
+> Task :react-native-nitro-modules:prefabDebugPackage
+> Task :react-native-nitro-modules:mergeDebugJniLibFolders
+> Task :react-native-nitro-modules:extractDebugAnnotations
+> Task :react-native-nitro-modules:extractDeepLinksForAarDebug
+> Task :react-native-nitro-modules:mergeDebugGeneratedProguardFiles
+> Task :react-native-nitro-modules:mergeDebugConsumerProguardFiles
+> Task :react-native-nitro-modules:prepareDebugArtProfile
+> Task :react-native-nitro-modules:mergeDebugNativeLibs
+> Task :react-native-nitro-modules:prepareLintJarForPublish
+> Task :react-native-nitro-modules:copyDebugJniLibsProjectOnly
+> Task :react-native-nitro-modules:mergeDebugJavaResource
+> Task :react-native-nitro-modules:syncDebugLibJars
+> Task :react-native-nitro-modules:stripDebugDebugSymbols
+> Task :react-native-nitro-modules:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-nitro-modules:bundleDebugAar
+> Task :react-native-nitro-modules:assembleDebug
+
+> Task :expo-modules-core:buildCMakeDebug[x86]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\expo-modules-core\android\build\intermediates\cxx\Debug\6x6d5j3p\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\expo-modules-core\android\build\intermediates\cxx\Debug\6x6d5j3p\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-mmkv:configureCMakeDebug[arm64-v8a]
+
+> Task :app:configureCMakeDebug[arm64-v8a]
+C/C++: CMake Warning in D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt:
+C/C++:   The object file directory
+C/C++:     D:/react-native-apps/food-delivery-app-wolt-clone/android/app/.cxx/Debug/556b235z/arm64-v8a/rngesturehandler_codegen_autolinked_build/CMakeFiles/react_codegen_rngesturehandler_codegen.dir/./
+C/C++:   has 190 characters.  The maximum full path to an object file is 250
+C/C++:   characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+C/C++:     react/renderer/components/rngesturehandler_codegen/rngesturehandler_codegenJSI-generated.cpp.o
+C/C++:   cannot be safely placed under this directory.  The build may not work
+C/C++:   correctly.
+
+> Task :react-native-gesture-handler:configureCMakeDebug[x86]
+> Task :expo-modules-core:configureCMakeDebug[x86_64]
+
+> Task :react-native-worklets:buildCMakeDebug[x86_64][worklets]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-worklets\android\build\intermediates\cxx\Debug\1s52j4n4\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-worklets\android\build\intermediates\cxx\Debug\1s52j4n4\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-worklets:externalNativeBuildDebug
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-worklets\android\build\intermediates\cmake\debug\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-worklets\android\build\intermediates\cmake\debug\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-worklets\android\build\intermediates\cmake\debug\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-worklets\android\build\intermediates\cmake\debug\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-worklets\android\build\intermediates\cmake\debug\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-worklets\android\build\intermediates\cmake\debug\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-worklets\android\build\intermediates\cmake\debug\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-worklets\android\build\intermediates\cmake\debug\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-gesture-handler:configureCMakeDebug[x86_64]
+
+> Task :react-native-mmkv:buildCMakeDebug[arm64-v8a]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-mmkv\android\build\intermediates\cxx\Debug\23501o5a\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-mmkv\android\build\intermediates\cxx\Debug\23501o5a\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :expo-dev-launcher:compileDebugKotlin
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/DevLauncherController.kt:474:81 'val reactNativeHost: ReactNativeHost' is deprecated. You should not use ReactNativeHost directly in the New Architecture. Use ReactHost instead.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/compose/models/BranchViewModel.kt:80:31 'val runtimeVersion: String' is deprecated. Use 'runtime' field .
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/helpers/DevLauncherReactUtils.kt:7:8 'class ReactNativeHost : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/helpers/DevLauncherReactUtils.kt:78:20 'class ReactNativeHost : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/helpers/DevLauncherReactUtils.kt:155:20 'class ReactNativeHost : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/helpers/DevLauncherReactUtils.kt:246:11 'fun newInstance(): CapturedType(*)!' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/launcher/DevLauncherActivity.kt:19:5 'fun overridePendingTransition(p0: Int, p1: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/launcher/DevLauncherActivity.kt:36:5 'fun overridePendingTransition(p0: Int, p1: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/modules/DevLauncherModule.kt:16:29 'fun getRawJson(): JSONObject' is deprecated. Prefer to use specific field getters.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/react/DevLauncherBridgeDevSupportManager.kt:49:38 This code uses error suppression for 'NOTHING_TO_OVERRIDE'. While it might compile and work, the compiler behavior is UNSPECIFIED and WILL NOT BE PRESERVED. Please report your use case to the Kotlin issue tracker instead: https://kotl.in/issue
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/react/DevLauncherBridgelessDevSupportManager.kt:48:38 This code uses error suppression for 'NOTHING_TO_OVERRIDE'. While it might compile and work, the compiler behavior is UNSPECIFIED and WILL NOT BE PRESERVED. Please report your use case to the Kotlin issue tracker instead: https://kotl.in/issue
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/react/DevLauncherDevSupportManagerFactory.kt:19:5 The corresponding parameter in the supertype 'DevSupportManagerFactory' is named 'reactInstanceManagerHelper'. This may cause problems when calling this function with named arguments.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/react/DevLauncherDevSupportManagerFactory.kt:48:5 The corresponding parameter in the supertype 'DevSupportManagerFactory' is named 'reactInstanceManagerHelper'. This may cause problems when calling this function with named arguments.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/react/DevLauncherDevSupportManagerSwapper.kt:6:8 'class ReactNativeHost : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/react/DevLauncherDevSupportManagerSwapper.kt:34:58 'class ReactNativeHost : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/DevLauncherPackage.kt:15:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/DevLauncherRecentlyOpenedAppsRegistry.kt:33:47 Unchecked cast of 'MutableMap<Any?, Any?>' to 'MutableMap<String, Any>'.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/DevLauncherRecentlyOpenedAppsRegistry.kt:51:27 'fun getRawJson(): JSONObject' is deprecated. Prefer to use specific field getters.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:37:23 'constructor(p0: String!, p1: Bitmap!, p2: Int): ActivityManager.TaskDescription' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:63:61 'static field FLAG_TRANSLUCENT_STATUS: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:92:45 'var systemUiVisibility: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:95:68 'static field SYSTEM_UI_FLAG_LIGHT_STATUS_BAR: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:99:67 'static field SYSTEM_UI_FLAG_LIGHT_STATUS_BAR: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:103:67 'static field SYSTEM_UI_FLAG_LIGHT_STATUS_BAR: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:107:15 'var systemUiVisibility: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:115:59 'static field FLAG_FULLSCREEN: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:116:61 'static field FLAG_FORCE_NOT_FULLSCREEN: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:118:59 'static field FLAG_FORCE_NOT_FULLSCREEN: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:119:61 'static field FLAG_FULLSCREEN: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:131:23 'fun replaceSystemWindowInsets(p0: Int, p1: Int, p2: Int, p3: Int): WindowInsets' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:132:25 'val systemWindowInsetLeft: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:134:25 'val systemWindowInsetRight: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:135:25 'val systemWindowInsetBottom: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:150:15 'var statusBarColor: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:160:63 'static field FLAG_TRANSLUCENT_NAVIGATION: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:161:25 'var navigationBarColor: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:171:63 'static field FLAG_TRANSLUCENT_NAVIGATION: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:175:33 'var systemUiVisibility: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:176:33 'static field SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:177:21 'var systemUiVisibility: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:190:29 'var systemUiVisibility: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:191:62 'static field SYSTEM_UI_FLAG_HIDE_NAVIGATION: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:191:101 'static field SYSTEM_UI_FLAG_FULLSCREEN: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:192:63 'static field SYSTEM_UI_FLAG_HIDE_NAVIGATION: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:192:102 'static field SYSTEM_UI_FLAG_FULLSCREEN: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:192:136 'static field SYSTEM_UI_FLAG_IMMERSIVE: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:193:70 'static field SYSTEM_UI_FLAG_HIDE_NAVIGATION: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:193:109 'static field SYSTEM_UI_FLAG_FULLSCREEN: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:193:143 'static field SYSTEM_UI_FLAG_IMMERSIVE_STICKY: Int' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/launcher/configurators/DevLauncherExpoActivityConfigurator.kt:196:17 'var systemUiVisibility: Int' is deprecated. Deprecated in Java.
+
+> Task :react-native-worklets:prefabDebugPackage
+> Task :react-native-worklets:mergeDebugJniLibFolders
+> Task :react-native-worklets:extractDebugAnnotations
+> Task :react-native-worklets:extractDeepLinksForAarDebug
+> Task :react-native-worklets:mergeDebugGeneratedProguardFiles
+> Task :react-native-worklets:mergeDebugConsumerProguardFiles
+> Task :react-native-worklets:mergeDebugNativeLibs
+> Task :react-native-worklets:prepareDebugArtProfile
+> Task :react-native-worklets:prepareLintJarForPublish
+> Task :react-native-worklets:mergeDebugJavaResource
+> Task :react-native-worklets:syncDebugLibJars
+> Task :react-native-worklets:stripDebugDebugSymbols
+> Task :react-native-worklets:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-worklets:copyDebugJniLibsProjectOnly
+> Task :react-native-worklets:bundleDebugAar
+> Task :react-native-worklets:assembleDebug
+> Task :expo-dev-launcher:compileDebugJavaWithJavac
+> Task :expo-dev-launcher:processDebugJavaRes
+> Task :expo-dev-launcher:extractDebugAnnotations
+> Task :expo-dev-launcher:mergeDebugGeneratedProguardFiles
+> Task :expo-dev-launcher:mergeDebugConsumerProguardFiles
+> Task :expo-dev-launcher:mergeDebugJavaResource
+> Task :expo-dev-launcher:bundleLibCompileToJarDebug
+
+> Task :app:configureCMakeDebug[armeabi-v7a]
+C/C++: CMake Warning in D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt:
+C/C++:   The object file directory
+C/C++:     D:/react-native-apps/food-delivery-app-wolt-clone/android/app/.cxx/Debug/556b235z/armeabi-v7a/rngesturehandler_codegen_autolinked_build/CMakeFiles/react_codegen_rngesturehandler_codegen.dir/./
+C/C++:   has 192 characters.  The maximum full path to an object file is 250
+C/C++:   characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+C/C++:     react/renderer/components/rngesturehandler_codegen/rngesturehandler_codegenJSI-generated.cpp.o
+C/C++:   cannot be safely placed under this directory.  The build may not work
+C/C++:   correctly.
+
+> Task :expo-modules-core:buildCMakeDebug[x86_64]
+> Task :expo-dev-launcher:bundleLibRuntimeToJarDebug
+
+> Task :expo-modules-core:buildCMakeDebug[x86_64]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\expo-modules-core\android\build\intermediates\cxx\Debug\6x6d5j3p\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\expo-modules-core\android\build\intermediates\cxx\Debug\6x6d5j3p\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-reanimated:buildCMakeDebug[arm64-v8a][reanimated]
+> Task :expo-modules-core:mergeDebugJniLibFolders
+> Task :expo-modules-core:extractDebugAnnotations
+> Task :expo-modules-core:extractDeepLinksForAarDebug
+> Task :expo-modules-core:mergeDebugGeneratedProguardFiles
+> Task :expo-modules-core:mergeDebugConsumerProguardFiles
+> Task :expo-modules-core:prepareDebugArtProfile
+> Task :expo-modules-core:prepareLintJarForPublish
+> Task :expo-modules-core:mergeDebugJavaResource
+> Task :expo-modules-core:mergeDebugNativeLibs
+> Task :expo-dev-launcher:syncDebugLibJars
+> Task :expo-dev-launcher:bundleDebugAar
+> Task :expo-dev-launcher:assembleDebug
+> Task :react-native-mmkv:configureCMakeDebug[armeabi-v7a]
+> Task :expo-modules-core:syncDebugLibJars
+> Task :expo-modules-core:copyDebugJniLibsProjectOnly
+> Task :expo-modules-core:stripDebugDebugSymbols
+> Task :expo-modules-core:copyDebugJniLibsProjectAndLocalJars
+> Task :expo-modules-core:bundleDebugAar
+> Task :expo-modules-core:assembleDebug
+> Task :app:configureCMakeDebug[x86]
+
+> Task :expo:compileDebugKotlin
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ExpoModulesPackage.kt:34:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ExpoReactHostFactory.kt:8:8 'class ReactNativeHost : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ExpoReactHostFactory.kt:80:22 'class ReactNativeHost : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:24:8 'class ReactNativeHost : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:58:33 'class ReactNativeHost : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:105:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:105:38 'class ReactNativeHost : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:113:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:114:21 'val reactInstanceManager: ReactInstanceManager' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:168:36 'constructor(activity: Activity, reactNativeHost: ReactNativeHost?, appKey: String?, launchOptions: Bundle?, fabricEnabled: Boolean): ReactDelegate' is deprecated. Deprecated since 0.81.0, use one of the other constructors instead.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:279:77 'val reactInstanceManager: ReactInstanceManager' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:282:22 'val reactInstanceManager: ReactInstanceManager' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:286:54 'val reactInstanceManager: ReactInstanceManager' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ReactNativeHostWrapper.kt:6:8 'class ReactNativeHost : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ReactNativeHostWrapper.kt:15:9 'class ReactNativeHost : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ReactNativeHostWrapper.kt:47:60 'class ReactNativeHost : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ReactNativeHostWrapperBase.kt:7:8 'class ReactNativeHost : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ReactNativeHostWrapperBase.kt:16:23 'class ReactNativeHost : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ReactNativeHostWrapperBase.kt:89:16 'class ReactNativeHost : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/ReactNativeHostWrapperBase.kt:101:38 'class ReactNativeHost : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:30:39 'constructor(reactContext: ReactContext): ForwardingCookieHandler' is deprecated. Use the default constructor.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/fetch/NativeResponse.kt:42:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/expo/android/src/main/java/expo/modules/fetch/NativeResponse.kt:44:11 'fun deallocate(): Unit' is deprecated. Use sharedObjectDidRelease() instead.
+
+> Task :app:configureCMakeDebug[x86]
+C/C++: CMake Warning in D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt:
+C/C++:   The object file directory
+C/C++:     D:/react-native-apps/food-delivery-app-wolt-clone/android/app/.cxx/Debug/556b235z/x86/rngesturehandler_codegen_autolinked_build/CMakeFiles/react_codegen_rngesturehandler_codegen.dir/./
+C/C++:   has 184 characters.  The maximum full path to an object file is 250
+C/C++:   characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+C/C++:     react/renderer/components/rngesturehandler_codegen/rngesturehandler_codegenJSI-generated.cpp.o
+C/C++:   cannot be safely placed under this directory.  The build may not work
+C/C++:   correctly.
+
+> Task :expo:compileDebugJavaWithJavac
+
+> Task :react-native-mmkv:buildCMakeDebug[armeabi-v7a]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-mmkv\android\build\intermediates\cxx\Debug\23501o5a\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-mmkv\android\build\intermediates\cxx\Debug\23501o5a\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :expo:processDebugJavaRes
+> Task :expo:extractDebugAnnotations
+> Task :expo:mergeDebugGeneratedProguardFiles
+> Task :expo:bundleLibRuntimeToJarDebug
+> Task :expo:bundleLibCompileToJarDebug
+> Task :expo:mergeDebugConsumerProguardFiles
+> Task :expo:mergeDebugJavaResource
+> Task :expo:syncDebugLibJars
+> Task :expo:bundleDebugAar
+> Task :expo:assembleDebug
+
+> Task :app:compileDebugKotlin
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/android/app/src/main/java/com/woltclone/fooddelivery/MainApplication.kt:9:8 'class ReactNativeHost : Any' is deprecated. Deprecated in Java.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/android/app/src/main/java/com/woltclone/fooddelivery/MainApplication.kt:21:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///D:/react-native-apps/food-delivery-app-wolt-clone/android/app/src/main/java/com/woltclone/fooddelivery/MainApplication.kt:21:33 'class ReactNativeHost : Any' is deprecated. Deprecated in Java.
+
+> Task :react-native-mmkv:configureCMakeDebug[x86]
+
+> Task :app:configureCMakeDebug[x86_64]
+C/C++: CMake Warning in D:/react-native-apps/food-delivery-app-wolt-clone/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt:
+C/C++:   The object file directory
+C/C++:     D:/react-native-apps/food-delivery-app-wolt-clone/android/app/.cxx/Debug/556b235z/x86_64/rngesturehandler_codegen_autolinked_build/CMakeFiles/react_codegen_rngesturehandler_codegen.dir/./
+C/C++:   has 187 characters.  The maximum full path to an object file is 250
+C/C++:   characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+C/C++:     react/renderer/components/rngesturehandler_codegen/rngesturehandler_codegenJSI-generated.cpp.o
+C/C++:   cannot be safely placed under this directory.  The build may not work
+C/C++:   correctly.
+
+> Task :app:compileDebugJavaWithJavac
+> Task :app:processDebugJavaRes
+> Task :app:transformDebugClassesWithAsm
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugGlobalSynthetics
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeLibDexDebug
+
+> Task :react-native-mmkv:buildCMakeDebug[x86]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-mmkv\android\build\intermediates\cxx\Debug\23501o5a\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-mmkv\android\build\intermediates\cxx\Debug\23501o5a\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-mmkv:configureCMakeDebug[x86_64]
+> Task :app:mergeDebugJavaResource
+
+> Task :react-native-reanimated:buildCMakeDebug[arm64-v8a][reanimated]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-reanimated\android\build\intermediates\cxx\Debug\6v2p2t4j\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-reanimated\android\build\intermediates\cxx\Debug\6v2p2t4j\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-mmkv:buildCMakeDebug[x86_64]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-mmkv\android\build\intermediates\cxx\Debug\23501o5a\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-mmkv\android\build\intermediates\cxx\Debug\23501o5a\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-mmkv:mergeDebugNativeLibs
+> Task :react-native-mmkv:copyDebugJniLibsProjectOnly
+> Task :react-native-mmkv:stripDebugDebugSymbols
+> Task :react-native-mmkv:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-mmkv:bundleDebugAar
+> Task :react-native-mmkv:assembleDebug
+> Task :react-native-reanimated:buildCMakeDebug[armeabi-v7a][reanimated]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-reanimated\android\build\intermediates\cxx\Debug\6v2p2t4j\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-reanimated\android\build\intermediates\cxx\Debug\6v2p2t4j\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-reanimated:buildCMakeDebug[x86][reanimated]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-reanimated\android\build\intermediates\cxx\Debug\6v2p2t4j\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-reanimated\android\build\intermediates\cxx\Debug\6v2p2t4j\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-reanimated:buildCMakeDebug[x86_64][reanimated]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-reanimated\android\build\intermediates\cxx\Debug\6v2p2t4j\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-reanimated\android\build\intermediates\cxx\Debug\6v2p2t4j\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-reanimated:externalNativeBuildDebug
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-reanimated\android\build\intermediates\cmake\debug\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-reanimated\android\build\intermediates\cmake\debug\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-reanimated\android\build\intermediates\cmake\debug\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-reanimated\android\build\intermediates\cmake\debug\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-reanimated\android\build\intermediates\cmake\debug\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-reanimated\android\build\intermediates\cmake\debug\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-reanimated\android\build\intermediates\cmake\debug\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-reanimated\android\build\intermediates\cmake\debug\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-reanimated:prefabDebugPackage
+> Task :react-native-reanimated:mergeDebugNativeLibs
+> Task :react-native-reanimated:copyDebugJniLibsProjectOnly
+> Task :react-native-reanimated:stripDebugDebugSymbols
+> Task :react-native-reanimated:copyDebugJniLibsProjectAndLocalJars
+
+> Task :react-native-gesture-handler:buildCMakeDebug[arm64-v8a]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-gesture-handler\android\build\intermediates\cxx\Debug\6c51q73l\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-gesture-handler\android\build\intermediates\cxx\Debug\6c51q73l\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-gesture-handler:buildCMakeDebug[armeabi-v7a]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-gesture-handler\android\build\intermediates\cxx\Debug\6c51q73l\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-gesture-handler\android\build\intermediates\cxx\Debug\6c51q73l\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :app:buildCMakeDebug[arm64-v8a]
+> Task :react-native-reanimated:bundleDebugAar
+> Task :react-native-reanimated:assembleDebug
+
+> Task :react-native-gesture-handler:buildCMakeDebug[x86]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-gesture-handler\android\build\intermediates\cxx\Debug\6c51q73l\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-gesture-handler\android\build\intermediates\cxx\Debug\6c51q73l\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-gesture-handler:buildCMakeDebug[x86_64]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-gesture-handler\android\build\intermediates\cxx\Debug\6c51q73l\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\node_modules\react-native-gesture-handler\android\build\intermediates\cxx\Debug\6c51q73l\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :react-native-gesture-handler:mergeDebugNativeLibs
+> Task :react-native-gesture-handler:copyDebugJniLibsProjectOnly
+> Task :react-native-gesture-handler:stripDebugDebugSymbols
+> Task :react-native-gesture-handler:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-gesture-handler:bundleDebugAar
+> Task :react-native-gesture-handler:assembleDebug
+
+> Task :app:buildCMakeDebug[arm64-v8a]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\android\app\build\intermediates\cxx\Debug\556b235z\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.arm64-v8a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\android\app\build\intermediates\cxx\Debug\556b235z\obj\arm64-v8a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :app:buildCMakeDebug[armeabi-v7a]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\android\app\build\intermediates\cxx\Debug\556b235z\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.armeabi-v7a\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\android\app\build\intermediates\cxx\Debug\556b235z\obj\armeabi-v7a\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :app:buildCMakeDebug[x86]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\android\app\build\intermediates\cxx\Debug\556b235z\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\android\app\build\intermediates\cxx\Debug\556b235z\obj\x86\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :app:buildCMakeDebug[x86_64]
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\android\app\build\intermediates\cxx\Debug\556b235z\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+C/C++: Hard link from 'C:\Users\himay\.gradle\caches\8.14.3\transforms\3f070ff3b5e25a97fad1b7cc961e77af\transformed\react-android-0.81.5-debug\prefab\modules\reactnative\libs\android.x86_64\libreactnative.so' to 'D:\react-native-apps\food-delivery-app-wolt-clone\android\app\build\intermediates\cxx\Debug\556b235z\obj\x86_64\libreactnative.so' failed. Doing a slower copy instead.
+
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+
+[Incubating] Problems report is available at: file:///D:/react-native-apps/food-delivery-app-wolt-clone/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 14m 56s
+689 actionable tasks: 287 executed, 402 up-to-date
