@@ -7,11 +7,11 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 const queryClient = new QueryClient();
 
 export default function RootLayout() {
-  let fontsLoaded = useFonts({
+  const [fontsLoaded] = useFonts({
     Nunito_400Regular,
     Nunito_700Bold,
     Nunito_900Black,
-  })
+  });
 
   if (!fontsLoaded) {
     return null;

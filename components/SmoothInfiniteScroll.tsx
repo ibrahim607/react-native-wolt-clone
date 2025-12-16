@@ -127,7 +127,13 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         borderRadius: 20,
         marginHorizontal: 5,
-        boxShadow: '0px -2px 10px rgba(0, 0, 0, 0.1)',
+        // iOS shadow properties
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: -2 },
+        shadowOpacity: 0.1,
+        shadowRadius: 10,
+        // Android shadow property
+        elevation: 4,
     }
 })
 
