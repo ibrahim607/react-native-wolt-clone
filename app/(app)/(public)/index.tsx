@@ -6,6 +6,11 @@ import { LinearGradient } from "expo-linear-gradient";
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import Animated, { FadeInDown } from "react-native-reanimated";
 
+/**
+ * Landing screen component that displays an animated layered background, brand logo, authentication buttons, and a privacy/terms notice.
+ *
+ * @returns The JSX element rendering the landing screen layout.
+ */
 export default function Index() {
   return (
     <View style={styles.container}>
