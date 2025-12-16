@@ -1,13 +1,35 @@
 import AppleAuthButton from "@/components/auth/AppleAuthButton";
 import GoogleAuthButton from "@/components/auth/GoogleAuthButton";
+import SmoothInfiniteScroll from "@/components/SmoothInfiniteScroll";
 import { Fonts } from "@/constants/theme";
+import { LinearGradient } from "expo-linear-gradient";
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import Animated, { FadeInDown } from "react-native-reanimated";
 
 export default function Index() {
   return (
     <View style={styles.container}>
-      <View style={styles.infiniteScrollContainer}></View>
+      <View style={styles.infiniteScrollContainer}>
+        <View>
+          <SmoothInfiniteScroll scrollDirection="down" iconSet="set1" />
+        </View>
+        <View>
+          <SmoothInfiniteScroll scrollDirection="up" iconSet="set2" />
+        </View>
+        <View>
+          <SmoothInfiniteScroll scrollDirection="down" iconSet="set3" />
+        </View>
+        <LinearGradient
+          colors={['transparent', "white"]}
+          style={{
+            position: 'absolute',
+            left: 0,
+            right: 0,
+            bottom: 0,
+            height: 200,
+          }}
+        />
+      </View>
       <View style={styles.contentContainer}>
         <Image source={require('@/assets/images/wolt-logo.png')} style={styles.brandLogo} />
         <Animated.Text entering={FadeInDown} style={styles.tagLine} > Almost EveryThing Delivered</Animated.Text>
@@ -43,15 +65,13 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#fff',
   },
   contentContainer: {
     flex: 1,
     alignItems: 'center',
     paddingHorizontal: 30,
     paddingVertical: 20,
-  },
-  infiniteScrollContainer: {
-    flex: 0.8,
   },
   brandLogo: {
     width: '100%',
@@ -97,6 +117,13 @@ const styles = StyleSheet.create({
   privacyLink: {
     color: '#4285f4',
     textDecorationLine: 'underline',
+  },
+  infiniteScrollContainer: {
+    flex: 0.8,
+    flexDirection: "row",
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: 4,
   },
 
 });
