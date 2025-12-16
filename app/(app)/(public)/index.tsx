@@ -6,6 +6,13 @@ import { LinearGradient } from "expo-linear-gradient";
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import Animated, { FadeInDown } from "react-native-reanimated";
 
+/**
+ * Renders the public landing screen with an animated infinite-scroll hero, brand logo, authentication buttons, and a privacy/terms notice.
+ *
+ * The layout includes three SmoothInfiniteScroll panels with a bottom gradient overlay, a centered brand logo and tagline with staggered FadeInDown animations for Google/Apple auth buttons and an "Other options" button, followed by a privacy notice.
+ *
+ * @returns The React element representing the landing screen UI.
+ */
 export default function Index() {
   return (
     <View style={styles.container}>
