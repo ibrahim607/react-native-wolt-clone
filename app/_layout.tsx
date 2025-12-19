@@ -6,6 +6,11 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 const queryClient = new QueryClient();
 
+/**
+ * Root layout component that loads Nunito fonts and provides gesture handling and React Query context to routed screens.
+ *
+ * @returns A view that wraps route content with GestureHandlerRootView and QueryClientProvider after the Nunito fonts have loaded; returns `null` while fonts are loading.
+ */
 export default function RootLayout() {
   const [fontsLoaded] = useFonts({
     Nunito_400Regular,
